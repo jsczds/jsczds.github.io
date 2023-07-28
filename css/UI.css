@@ -34,10 +34,10 @@
 	left: 0;
 	right: 0;
 	bottom: 0;
-    animation: cmzboxAT 0.34s ease-in-out;
+    animation: jsczdsAT 0.34s ease-in-out;
 }
 
-@keyframes cmzboxAT {
+@keyframes jsczdsAT {
     0% {
         opacity: 0;
         width: 65%;
@@ -73,9 +73,9 @@
 #Text:active {
     background: #00b4ff;
 }
-#CmzPrepOldWarningText {
+#jsczdsOldWarningText {
     border: 2px solid #1d1d1f;
-    background: rgb(150, 10, 10);
+    background: rgb(0, 38, 255);
     color: #FFFFFF;
     border-radius: 18px;
     padding: 0px 10px;
@@ -84,7 +84,7 @@
     font-size: small;
     display: flex;
 }
-#CmzPrepOldText {
+#jsczdsOldText {
     border: 2px solid #1d1d1f;
     background: #FFFFFF00;
     backdrop-filter: blur(10px);
@@ -97,15 +97,15 @@
     display: flex;
     transition: all 0.23s ease-in-out;
 }
-#CmzPrepOldText:hover {
+#jsczdsOldText:hover {
     background: #41c8ff;
 }
-#CmzPrepOldText:active {
+#jsczdsOldText:active {
     background: #00b4ff;
 }
-#CmzPrepReleaseWarningText {
+#jsczdsReleaseWarningText {
     border: 2px solid #1d1d1f;
-    background: rgb(202, 70, 8);
+    background: rgb(47, 0, 255);
     color: #FFFFFF;
     border-radius: 18px;
     padding: 0px 10px;
@@ -114,7 +114,7 @@
     font-size: small;
     display: flex;
 }
-#CmzPrepReleaseText {
+#jsczdsReleaseText {
     border: 2px solid #1d1d1f;
     background: #FFFFFF00;
     backdrop-filter: blur(10px);
@@ -127,15 +127,15 @@
     display: flex;
     transition: all 0.23s ease-in-out;
 }
-#CmzPrepReleaseText:hover {
+#jsczdsReleaseText:hover {
     background: #41c8ff;
 }
-#CmzPrepReleaseText:active {
+#jsczdsReleaseText:active {
     background: #00b4ff;
 }
-#CmzPrepinfoText {
+#jsczdsinfoText {
     border: 2px solid #1d1d1f;
-    background: rgb(150, 10, 10);
+    background: rgb(38, 0, 253);
     /*background: rgb(108, 175, 206);*/
     color: #FFFFFF;
     border-radius: 18px;
@@ -145,7 +145,7 @@
     font-size: small;
     display: flex;
 }
-#CmzPrepText {
+#jsczdsText {
     border: 2px solid #1d1d1f;
     background: #FFFFFF00;
     backdrop-filter: blur(10px);
@@ -158,10 +158,10 @@
     display: flex;
     transition: all 0.23s ease-in-out;
 }
-#CmzPrepText:hover {
+#jsczdsText:hover {
     background: #41c8ff;
 }
-#CmzPrepText:active {
+#jsczdsText:active {
     background: #00b4ff;
 }
 #aboutText {
