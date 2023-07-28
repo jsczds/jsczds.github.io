@@ -1,0 +1,227 @@
+#background {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 600% 600%;
+    animation: backgroundBG 24s linear infinite;
+}
+@keyframes backgroundBG {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+#jsczds {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF80;
+    line-height: 30%;
+    padding: 10px 50px;
+    border-radius: 32px;
+    overflow: auto;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    font-size: large;
+	width: 85%;
+	height: 85%;
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    animation: cmzboxAT 0.34s ease-in-out;
+}
+
+@keyframes cmzboxAT {
+    0% {
+        opacity: 0;
+        width: 65%;
+	    height: 65%;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        width: 85%;
+	    height: 85%;
+    }
+}
+#Text {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 10px;
+    font-size: medium;
+    text-align: left;
+    line-height: 70%;
+    display: flex;
+    margin: auto 0;
+    margin-bottom: 10px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.23s ease-in-out;
+}
+#Text:hover {
+    background: #41c8ff;
+}
+#Text:active {
+    background: #00b4ff;
+}
+#CmzPrepOldWarningText {
+    border: 2px solid #1d1d1f;
+    background: rgb(150, 10, 10);
+    color: #FFFFFF;
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    display: flex;
+}
+#CmzPrepOldText {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    position: absolute;
+    display: flex;
+    transition: all 0.23s ease-in-out;
+}
+#CmzPrepOldText:hover {
+    background: #41c8ff;
+}
+#CmzPrepOldText:active {
+    background: #00b4ff;
+}
+#CmzPrepReleaseWarningText {
+    border: 2px solid #1d1d1f;
+    background: rgb(202, 70, 8);
+    color: #FFFFFF;
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    display: flex;
+}
+#CmzPrepReleaseText {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    position: absolute;
+    display: flex;
+    transition: all 0.23s ease-in-out;
+}
+#CmzPrepReleaseText:hover {
+    background: #41c8ff;
+}
+#CmzPrepReleaseText:active {
+    background: #00b4ff;
+}
+#CmzPrepinfoText {
+    border: 2px solid #1d1d1f;
+    background: rgb(150, 10, 10);
+    /*background: rgb(108, 175, 206);*/
+    color: #FFFFFF;
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    display: flex;
+}
+#CmzPrepText {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 10px;
+    line-height: 200%;
+    text-align: left;
+    font-size: small;
+    position: absolute;
+    display: flex;
+    transition: all 0.23s ease-in-out;
+}
+#CmzPrepText:hover {
+    background: #41c8ff;
+}
+#CmzPrepText:active {
+    background: #00b4ff;
+}
+#aboutText {
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 10px;
+    font-size: 0.9vw;
+    text-align: left;
+    line-height: 220%;
+    display: flex;
+    margin: auto 0;
+    margin-bottom: 10px;
+    top: 0;
+    bottom: 0;
+    transition: all 0.23s ease-in-out;
+}
+#aboutText:hover {
+    background: #41c8ff;
+}
+#aboutText:active {
+    background: #00b4ff;
+}
+#img {
+    padding-right: 5px;
+    margin: auto 0;
+    width: 48px;
+    height: 48px;
+}
+#imgBig {
+    padding-right: 5px;
+    margin: auto 0;
+    width: 128px;
+    height: 128px;
+}
+#imgBigger {
+    border-radius: 36px;
+    width: 192px;
+    height: 192px;
+    float: left;
+    margin-right: 20px;
+}
+#button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 2px solid #1d1d1f;
+    background: #FFFFFF00;
+    backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 0px 9px;
+    font-size: medium;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: all 0.23s ease-in-out;
+}
+#button:hover {
+    background: #41c8ff;
+}
+#button:active {
+    background: #00b4ff;
+}
