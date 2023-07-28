@@ -1,7 +1,7 @@
 #background {
     width: 400px;
     height: 400px;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ff3c00, #4400ff, #23a6d5, #00ffc3);
     background-size: 600% 600%;
     animation: backgroundBG 24s linear infinite;
 }
